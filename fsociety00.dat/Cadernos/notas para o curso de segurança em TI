@@ -1,0 +1,187 @@
+    Segurança em Tecnologia da informação
+    _____________________________________________________
+    				CAPITULO 1
+    	O papel da informação e a segurança do mundo virtual
+    _____________________________________________________
+			    	TOPICO 1
+	Dinâmica da informação e as vulnerabilidades do mundo digital
+    _____________________________________________________
+    
+    ativo de uma empresa = capital em circulação em determinado momento
+    
+    saber fazer é o bem mais importante de uma empresa
+    
+    _____________________________________________________
+    
+    ---Exemplos de controle de informação---
+    
+    Controles de acesso:CATRACAS E CANCELAS;
+    Identificação dos funcionarios: CRACHAS E UNIFORMES;
+    Sistemas de monitoramento:CAMERAS E SEGURANÇAS;
+    _____________________________________________________
+    
+    
+    				Segurança Digital
+    
+    
+    Vulnerábilidades:
+    
+    -Defeitos de software;
+    -Falhas na configuração;
+    -Uso inadequado;
+    -Fraquezas advindas da complexidade dos sistemas;
+    
+    Agentes:
+    
+    -Agentes com intenções suspeitas;
+    -Espionagem e invasão social;
+    -Interesses e golpes políticos;
+    
+    Riscos:
+    
+    -Indisponibilidade de serviços;
+    -Furtos de dados;
+    -Perdas financeiras;
+    -Danos á imagem;
+    -Risco pessoal;
+    -Perda da confiança da tecnologia;
+    
+    ______________________________________________________
+    
+    				TOPICO 2
+    	Segurança da informação, riscos, ameaças e ataques
+    
+    Ações preventivas:
+    	São as mais conhecidas e baratas de se implementar;
+    	Sua finalidade é evitar problemas;
+    
+    
+    Ações detectivas:
+    	Visam detectar ou identificar se ocorreu um erro;
+    	Quanto mais cedo detectar o problema, mais rápida e baratas serão as ações para 		corrigir;
+    
+    
+    
+    Ações corretivas:
+    	São executadas quando ja ocorreu um problema, ja foi detectado e precisa ser
+    	corrigido para que voltem as atividades
+    
+   ________________________________________________________
+   
+   	RISCOS, AMEAÇAS E ATAQUES
+   	
+   As ameaças sao representadas por qualquer meio ou mecanismo que possa violar a informação,
+como os vírus. Essas ameaças visam a modificação, a perda ou o roubo da informação e até   mesmo a paralisação dos serviços que estão sendo executados.
+
+Chamamos de ataque a ocorrência de uma ou várias dessas ameaças a um sistema de informação. Esse ataque pode ocorrer de forma acidental ou intencional, envolvendo casos de extorsão, uso de informção privilegiada e espionagem, entre outros motivos.
+
+-Vírus: É um programa que instala no computador sem o consentimento do usuário. Ele tem como finalidade danificar o computador, apagando as informações necessárias para seu funcionamento.
+Os vírus são altamente destrutivos e podem contaminar seu computador disfarçados de jogos, programas, anexos em e-mails. A forma de ataque mais comum é se multiplicar por vários computadores com rapidez.
+
+-Spyware: É um programa oculto que se instala no computador e recolhe informações sobre o usuário, como senhas e dados pessoais, enviando-as para outros computadores por meio da internet. Instala-se por meio de arquivos anexos em e-mails, sites, programas gratuitos como jogos e aplicativos.
+
+-Cavalo de Tróia: Também conhecido como Trojan Horse, é um programa que pode ser considerado um vírus e se instala no computador disfarçado em jogos e apps baixados na internet.
+Este programa abre as portas do computador para que os vírus e spywares possam invadi-lo. Depois dos vírus, é a ameaça mais comum.
+
+-Spam: Propaganda enviada em grande quantidade por e-mail, lotando a caixa de entrada. Em muitos casos, se apresenta como empresa, solicitando dados pessoais e senhas. Quando isso acontece, essa ação pode ser caracterizada como "phishing".
+
+-Keylogger: Ameaça que se instala no computador normalmente por meio de anexos enviados no e-mail. O programa monitora as teclas digitadas e as grava em um arquivo escondido, que futuramente será enviado por e-mail para o criminoso cibernético.
+
+-Adware: São ameaças que ficam exibindo propagandas de produtos e serviços no computador, principalmente nos navegadores de internet, alterando as suas configurações. Tratam-se de ameaças que nao causam danos graves, mas que incomodam demais os usuários e são das mais difíceis de ser removidas. Nesta categoria também existem o Hijacker.
+
+
+					MEIOS DE PROTEÇÃO
+					
+	-Instale um antivírus;
+	-Instale um firewall. Ele é uma barreira para que acessos externos não autorizados sejam realizados no computador;
+	-Instale um programa anti-spam e, quando receber um e-mail de destinatário desconhecido, apague-o;
+	-Senhas: Não guarde em arquivos do computador. Não utilize senhas com dados pessoais, nome de animais de estimação, data de nascimento. Para definir uma senha misture números, letras maiúsculas e minúsculas;
+	-Dispositivos removíveis são mecanismos de disseminação de vírus. Antes de utiliza-los no seu computador, sempre realize uma varredura com programas antivírus e anti-spyware;
+	-Tome cuidade ao baixar arquivos de sites desconhecidos e procure ver nos comentários de outros usuários as opniões sobre o arquivo. De qualquer forma, antes de rodá-los, faça uma varredura com antivírus;
+	-Desconfie de mensagens suspeitas. Lembre-se que bancos e empresas não utilizam e-mail para comunicação com clientes, por isso sempre desconfie desses tipos de comunicados;
+	
+_______________________________________________________________________________________________
+	
+				CAPITULO 2
+				Segurança em redes
+				
+    Segurança da informação: Consiste na proteção de um conjunto de dados, sejam eles pessoais ou de uma empresa, para que não sejam consultados, copiados ou alterados por indivíduos não autorizados.
+    
+    		
+    		Ameaças à segurança
+    
+    -Varredura:
+    	O invasor faz varreduras na rede para descobrir computadores com permissão de acesso, ou seja, que tenham uma porta de comunicação aberta, e passa a usá-los para envio de e-mails, spam e vírus.
+    
+    -Interceptação de tráfego:
+    	O criminoso cibernético com acesso à rede intercepta os dados que estão trafegando na internet (chamados de pacote) e os copia ou modifica.
+    	
+    -Ataque de negação de serviço:
+    	O criminoso usa seu computador para enviar grande volume de mensagens para outros computadores, até torná-lo inoperante ou incapaz de se comunicar.
+    	
+    -Ataque de força bruta:
+    	Computadores conectados à rede e que usem senhas como método de acesso estão vulneráveis a ataques de força bruta, que são algoritmos que "tentam" descobrir a senha.
+    	
+    -Ataque de personificação:
+    	O criminoso substitui um computador da rede por outro, passando-se pelo dispositivo legítimo, capturando senhas de acesso e informações que por eles trafeguem.
+    
+    
+    
+    		Meios de proteção
+    		
+    	VPN:
+    	Virtual Private Network - ou "Rede Virtual Privada", trata-se de um tipo de rede estruturado para manter o tráfego de dados inacessível a usuários não credenciados, isto é, somente pessoas devidamente credenciadas possuem acesso às informações que trafegam pela VPN
+    	Nessa estrutura as informações ficam ocultas, tornando-se protegidas até mesmo contra qualquer tentativa de interceptação de pessoas mal intencionadas.
+    	
+    	IDS/IPS:
+    	O IDS é um Sistema de Detecção de Intrusão (Intrusion Detection System) capaz de fazer o monitoramento e a análise de possíveis incidentes de ataques em um sistema de computação ou em uma rede de computadores. Auxilia na segurança detectando violações ou iminências de violações às proprias regras ou políticas de segurança do ambiente.
+    	TIPOS DE IDS
+    	-IDS baseandos em host (HIDS)
+    	-IDS baseados em Rede (NIDS)
+    	-IDS Híbridos
+    	FORMAS DE DETECÇÃO DE INTRUSÃO
+    	-Detecção por Assinatura
+    	-Detecção por Anomalias
+    	-Detecção baseada em especificação
+    	FERRAMENTAS IDS Open Source
+    	-SNORT (baseado em redes)
+    	-OSSEC-HIDS (baseado em host)
+    	
+    	
+    	
+    	REDE SEM FIO
+    	A rede sem fio pode ser utilizada tanto na forma indoor (interna) quanto na forma outdoor (externa)
+    	
+    	Indoor: O sinal é transmitido em ambiente fechado, como escritórios e residências, e normalmente encontra muitos obstáculos. O alcance é pequeno em torno de até 300 metros. É a forma mais comum de uso da rede sem fio.
+    	
+    	Outdoor: O sinal é trasmitido ao ar livre, em ruas e parques, por exemplo. As antenas ficam nos topos dos prédios, e para que haja comunicação é necessário haver espaços livres entre as antenas. Possui longo alcance, podendo chegar a vários quilometros.
+    	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

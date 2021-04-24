@@ -1,0 +1,60 @@
+----------------HTML AVANÇADO--------------------
+
+		Criando Tabelas
+    
+    A tag utilizada para criar tabelas é <TABLE>
+    No html, as tabelas são feitas apenas com linhas, não possuem colunas como no Word.
+    Dessa forma, temos as seguintes tags para a criação de uma tabela:
+    
+    -<table> </table> = Cria a tabela;
+    
+    -<td> </td> = responsável por criar as células;
+    
+    -<tr> = Responsável por criar linhas;
+    
+    ----ATRIBUTOS DE UMA TABELA----
+    
+    BORDER = INSERÇÃO DE UMA BORDA
+    EX- <table border="1px"> </table>
+    
+    BORDERCOLOR = INSERÇÃO DE UMA COR A BORDA
+    EX- <table bordecolor="blue"> </table>
+    
+    BGCOLOR = COLOCAR COR DE FUNDO (TABLE,TD,TR)
+    EX- <table bgcolor="blue">
+    	<td bgcolor="red" />
+    	<tr bgcolor="green" />
+    	</table>
+    	
+    BACKGROUND = DEFINIR UMA IMAGEM DE FUNDO
+    EX- <table background="imagem.png">
+    
+    WIDTH/HEIGHT = DEFINIR LARGURA E ALTURA
+    EX- <table width="100px" height="200px">
+    
+    ALIGN = ALTERAR O ALINHAMENTO DA TABELA
+    EX- <table align="center">
+    
+    CELLSPACING = ESPAÇO ENTRE BORDAS
+    EX- <table cellspacing="10px">
+    
+    CELLPADDING = DEFINE O PADDING
+    EX- <table cellpadding="3px">
+    
+    
+    ----ATRIBUTOS DA TD----
+    
+    ALIGN = ALTERAR O ALINHAMENTO DA TABELA
+    EX- <td align="center">
+    
+    VALIGN = ALTERA OS DADOS VERTICALMENTE
+    EX- <td valign="top">
+    
+    COLSPAN = MESCLAR CÉLULAS EM LINHA
+    EX- <td colspan="2">
+    
+    ROWSPAN = MESCLAR CELULAS EM COLUNAS
+    EX- <td rowspan="2">
+    
+    
+    

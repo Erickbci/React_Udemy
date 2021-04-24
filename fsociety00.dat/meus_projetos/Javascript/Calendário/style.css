@@ -1,0 +1,20 @@
+body{
+    background-color: blueviolet;
+
+}
+.container{
+    border: 5px solid black;
+    border-radius: 10px;
+
+    width: 600px;
+    height: auto;
+
+    margin: auto;
+    padding: 20px;
+}
+input{
+    margin: 15px;
+}
+.func{
+    color: #fff;
+}

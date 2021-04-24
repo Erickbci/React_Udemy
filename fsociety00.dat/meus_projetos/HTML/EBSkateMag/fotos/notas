@@ -1,0 +1,60 @@
+input {
+        width: 200px;
+        height: 8px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid  lightblue;
+        
+      }
+      input[type=submit] {
+        
+        width: 400px;
+        height: 10px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        outline: none;
+      }
+      .
+      input:focus {
+        background-color: lightblue;
+        
+      }
+      [type=text]
+K
+K
+K
+FORMULARIO
+
+      <div class="textin"><label for="fname">Nome:</label></div>
+<div class="textin"> <label for="lname">Sobrenome:</label></div>
+<div class="textin"> <label for="email">Email:</label></div>
+<div class="textin"><label for="senha">Senha:</label><br></div>
+<div class="textin"><label for="senha">Confirmar Senha:</label><br></div>
+
+
+
+input {
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid  black;
+    
+  }
+  margin: 0 10px 20px 0;
+
+
+
+
+
+
+
+
+
+

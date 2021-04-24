@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h1>Formulário</h1>
+        <form action="" method="post">
+            <p>
+                Nome:  <input type="text" name="nome" size="20" maxlength="50" placeholder="Digite aqui seu nome completo">
+            </p>
+            <p>
+                N° do cartão: <input type="number" maxlength="19" placeholder="0000-0000-0000-0000">
+            </p>
+
+            <p>
+                Senha: (Até 8 caracteres) <input type="password" name="password" id="pass" maxlength="8">
+            </p>
+            
+            <p>
+                Selecione a bandeira do cartão: <br>
+                <input type="radio" name="selecao" id="cartoes">MASTERCARD <br>
+                <input type="radio" name="selecao" id="cartoes">VISA <br>
+            </p>
+
+            <p>
+                Selecione o horário de entrega: <br>
+                <input type="checkbox" name="hour1" id="hour1"> 08h às 12h <br>
+                <input type="checkbox" name="hour1" id="hour1"> 13h às 15h <br>
+                <input type="checkbox" name="hour1" id="hour1"> 16h às 18h <br>
+            </p>
+            <p>
+                <select name="cidades">
+                    <option>São Paulo 
+                    <option>Guarulhos
+                    <option>Atibaia 
+                    <option>Santos 
+                </select>
+            </p>
+
+            <p>
+                Endereço: <input class="enderecos" type="text" name="endereco" id="endereco">
+            </p>
+
+            <p>
+                Referência: <br>
+                <textarea name="ref" id="ref" cols="30" rows="2"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+        </form>
+        </div>
+        
+    </div>
+</body>
+</html>

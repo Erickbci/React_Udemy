@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet ;
+}
+.container{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+table{
+    
+    border: 2px solid white;
+    padding: 5px;
+
+    
+    
+}
+td {
+    padding: 10px;
+    background-color: white;
+     
+}
+th{
+    padding: 10px;
+    background-color: white;
+}
+.th-title{
+    height: 70px;
+    font-size: 30px;
+}

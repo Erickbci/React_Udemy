@@ -1,0 +1,147 @@
+
+.conteudo{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+.container-form{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    grid-template-rows: 10vh 66vh 65vh;
+    grid-template-areas: "h h"
+                         "m a"
+                         "f f";
+    grid-gap: 10px;
+    border-radius: none;
+    padding: 0;
+}
+
+  
+header {
+    
+    grid-area: h;
+    
+   
+}
+.main {
+    
+    margin-top: 20px;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1 67vh 65vh;
+    
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+    
+    grid-area: m;
+    
+    
+   
+}
+.insidehub {
+    background: white;  
+    grid-area: a;
+    text-align: center;
+    border-radius: 5px;
+    height: 442px;
+
+    
+    
+}
+footer {
+    background:red;  
+    grid-area: f;
+}
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  input{
+    width: 700px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid  black;
+    
+  }
+  .ddd{
+    width: 193px;
+}
+.birth{
+  width: 200px;
+}
+.tel{
+    width: 300px;
+}
+  .cep{
+      width: 200px;
+  }
+  .add{
+      width: 420px;
+  }
+  .nmb{
+      width: 70px;
+  }
+  .comp{
+      width: 150px;
+  }
+  .state{
+      width: 50px;
+  }
+  .city{
+      width: 200px;
+  }
+  .nbh{
+      width: 200px;
+  }
+  .flag{
+      width:200px ;
+  }
+  .nmbcard{
+      width:450px ;
+  }
+  .mm{
+      width:150px ;
+  }
+  .aaaa{
+      width: 150px;
+  }
+  .cvv{
+      width:150px ;
+  }
+  .holder{
+      width: 340px;
+  }
+  .cpfnumb{
+      width:310px ;
+  }
+  .submit{
+      width: auto;
+      height: auto;
+      background: rgb(71, 128, 235);
+      margin-top: 10px;
+      
+  }
+  .card{
+      border-radius: 5px;
+      background: white; 
+      text-align: center;
+      padding: 13px;
+      
+      
+  }
+  .botao-submit{
+      display: flex;
+      justify-content: flex-end;
+  }

@@ -1,0 +1,42 @@
+.title-pag{
+    color: white;
+}
+.title-app{
+    color: white;
+}
+.input-box{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.list-return{
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    width: auto;
+    margin: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.click{
+    width: 1000px;
+    height: 100px;
+    color: white;
+}
+#botao{
+    margin: 20px;
+    height: 100px;
+    width: 300px;
+    background-color: transparent;
+}
+.divulgacao{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}

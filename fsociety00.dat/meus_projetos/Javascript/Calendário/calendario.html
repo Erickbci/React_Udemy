@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calendario" id="meses">
+            <p  >
+                <input type="button" name="janeiro"  value="1">
+                <input type="button" name="fevereiro"  value="2">
+                <input type="button" name="marco"  value="3">
+                <input type="button" name="abril"  value="4">
+                <input type="button" name="maio"  value="5">
+                <input type="button" name="junho"  value="6">
+                <input type="button" name="julho"  value="7">
+                <input type="button" name="agosto"  value="8">
+                <input type="button" name="setembro" value="9">
+                <input type="button" name="outubro"  value="10">
+                <input type="button" name="novembro" value="11">
+                <input type="button" name="dezembro" value="12">
+            </p>
+        </div>
+        <div class="func">
+            <input type="button" name="btn_process" value="Process" onclick="verificames()" >
+            <p><h1>O mês correspondente é: </h1><input type="text" id="output"></p>
+            <input type="reset" name="btn_reset" value="Reset">
+        </div>
+            
+    </div>
+    
+
+    
+
+
+    <script>
+
+        var mes
+
+        function verificames(props) {
+
+            mes = parseInt(document.getElementById('meses').value)
+            // console.log(mes);
+            
+            switch(mes){
+                case 1 : document.getElementById('output').value = 'Janeiro'; break;
+                case 2 : document.getElementById('output').value = 'Fevereiro'; break;
+                case 3 : document.getElementById('output').value = 'Março'; break;
+                case 4 : document.getElementById('output').value = 'Abril'; break;
+                case 5 : document.getElementById('output').value = 'Maio'; break;
+                case 6 : document.getElementById('output').value = 'Junho'; break;
+                case 7 : document.getElementById('output').value = 'Julho'; break;
+                case 8 : document.getElementById('output').value = 'Agosto'; break;
+                case 9 : document.getElementById('output').value = 'Setembro'; break;
+                case 10 : document.getElementById('output').value = 'Outubro'; break;
+                case 11 : document.getElementById('output').value = 'Novembro'; break;
+                case 12 : document.getElementById('output').value = 'Dezembro'; break;
+
+                default : document.getElementById('output').value = 'Mês Inválido';break;
+            }
+            
+        }
+
+
+    </script>
+</body>
+</html>

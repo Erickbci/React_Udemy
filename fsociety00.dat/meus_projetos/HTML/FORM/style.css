@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+}
+.formulario{
+    border: 15px solid rgb(59, 59, 252);
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}

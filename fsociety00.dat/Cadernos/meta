@@ -1,0 +1,27 @@
+-----METADADOS-----
+
+    Os Metadados são informações sobre seus dados. Neste caso, a tag <meta> fornece ps dados sobre seu documento HTML.
+    Estes dados servem para descrever as definições da página, palavras-chave, informações sobre o autor, quando foi a ultima modificação e outras...
+    A Tag META é inserida entre as tags <head>
+    
+    ----ATRIBUTOS DA TAG META----
+    
+    O atributo CONTENT =
+    Ele aceita somente texto e especifica o conteúdo da informação META. Seu valor depende do valor dos atributos name ou http-equiv.
+    
+    O atributo NAME fornece um nome para a informação no content.
+    SINTAXE: <meta name="valor de name">
+    Valores de name:
+    *author: informa o autor do doc;
+    *description: descreve o doc;
+    *keywords: define as palavra-chave do doc;
+    *generator: define o programa utilizado;
+    *robots: define regras para os robos;
+    *copyright: define informações de direitos;
+    
+    Valores de http-equiv:
+    *content type: define o tipo do doc;
+    *expires: define quando o doc sera obsoleto;
+    *refresh: define o tempo para ser recarregada;
+    *set-cookie: define o valor de um cookie;
+    

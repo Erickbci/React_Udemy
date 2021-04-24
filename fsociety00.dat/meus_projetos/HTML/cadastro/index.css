@@ -1,0 +1,10 @@
+body{
+    background-color: blueviolet;
+}
+.box{
+    border: 10px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+}
